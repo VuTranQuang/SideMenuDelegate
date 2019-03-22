@@ -12,6 +12,11 @@ protocol HandlerSideMenuDelegate {
     
 }
 
+// Them Choi Vay
+struct ChaDeLamGi {
+    var name = "Vu PD"
+}
+
 class MainViewController: UIViewController {
     var delegate: HandlerSideMenuDelegate?
     
